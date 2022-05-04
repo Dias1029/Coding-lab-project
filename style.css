@@ -1,0 +1,111 @@
+footer{
+    font-family: 'Secular One', sans-serif;
+}
+body{
+    height: 200px;
+    font-family: 'Secular One', sans-serif;
+    background:linear-gradient(to right, #E8F9FD, #0AA1DD);
+}
+header{
+    font-family: 'Secular One', sans-serif;
+}
+hr{
+    border-style:none;
+}
+.main{
+    height: 200px;
+    background: linear-gradient(to right, #E8F9FD, #0AA1DD);
+}
+a.active{
+    border-style: solid;
+}
+a.active2{
+    border-style:solid;
+}
+a.active3{
+    border-style: solid;
+}
+ul {
+    list-style: none; 
+    margin: 0; 
+    padding-left: 0; 
+    margin-top:25px; 
+    background: #79DAE8; 
+    height: 50px; 
+  }
+  a {
+    text-decoration: none; 
+    background:#79DAE8; 
+    color:black; 
+    padding:0px 15px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    line-height:50px; 
+    display: block; 
+    border-right: 1px solid black; 
+    -moz-transition: all 0.3s 0.01s ease; 
+    -o-transition: all 0.3s 0.01s ease;
+    -webkit-transition: all 0.3s 0.01s ease;
+  }
+  a:hover {
+    background:#2155CD;
+  }
+  li {
+    float:left; 
+    position:relative; 
+  }
+       
+     
+      li > ul {
+          position:absolute;
+          top:25px;
+          display:none;   
+      }
+       
+      
+      li:hover > ul {
+          display:block; 
+          width:250px;       
+      }
+     li:hover > ul > li {
+          float:none; 
+      }
+      .pic{
+          display:inline;
+          position: relative;
+          padding-left:25px;
+      }
+      .kf{
+        display:inline;
+        padding-left:15px;
+        margin-top: 2px;
+        margin-bottom:10px;
+      }
+      .menu{
+          margin-top:18px;
+          margin-left:0px;
+          border-radius: 17px;
+          position: static;
+      }
+      .contacts{
+          float:right;
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px; 
+        width:300px;
+        height:300px;
+    }
+    
+    
+    img {
+        border-radius: 5px 5px 0 0;
+    }
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+    .container {
+        padding: 2px 16px;
+    }
+     
+    
